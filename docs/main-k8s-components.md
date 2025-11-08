@@ -23,7 +23,7 @@ This document describes the main components of a Kubernetes cluster, including n
 - usually 1 app per pod (but not necessarily)
 - Each pod get its own IP address
   - If a pod dies a new one is created and a new IP is creatd and not necesarily we wiil always have the same IP for pods
-![alt text](../images/Screenshot 2025-11-08 at 4.42.59 PM.png)
+![alt text](images/pod-ip-change-example.png)
 
 
 ## service
@@ -36,7 +36,7 @@ This document describes the main components of a Kubernetes cluster, including n
 - and once the serice is external it will look like ip address and we dont want to show that publically instead we it to look like my-app.com, for which we use another component called as ingress.
 - and all the request go through the **ingress**.
 
-![alt text](../images/image.png)
+![alt text](images/mongo-express-ui.png)
 
 ## ConfigMap:
 - external configuration of your application.
@@ -46,13 +46,13 @@ This document describes the main components of a Kubernetes cluster, including n
 - stored in base64 encoded
 - the builr in security mech is not enabled by default
 - this can be used in app as environment variables or as properties file
-- ![alt text](../images/image-1.png)
+- ![alt text](images/k8s-secret-example.png)
 
 ## Volume
 - Data storage
-- ![alt text](../images/image-2.png)
+- ![alt text](images/k8s-volume-example.png)
 
-![alt text](../images/image-3.png)
+![alt text](images/k8s-volume-usage.png)
 
 ## StateFul Set
 - Deplpyment(or the blueprints) for Stales APPs

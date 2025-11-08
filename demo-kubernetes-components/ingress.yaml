@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: name
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+    - host: app.com #should be valid domain name
+      http: # this doesnt correspond to the http on the request its just to specify the http rules check ingress doc
+        paths:
+        - path: /
+          pathType: Exact
+          backend:
+            service:
+              name: my-service
+              port: 
+                number: 8080

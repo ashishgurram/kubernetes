@@ -70,4 +70,4 @@ spec:
       targetPort: 8080
 
 ```
-![alt text](../images/image-14.png)
+![alt text](images/k8s-yaml-structure.png)

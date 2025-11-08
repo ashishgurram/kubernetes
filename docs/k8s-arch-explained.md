@@ -21,7 +21,7 @@ This document explains the architecture of a Kubernetes cluster, including the r
     - it wants to optimise the n/w call
 - worker node does hte actual work
 
-![alt text](../images/image-4.png)
+![alt text](images/k8s-worker-node-architecture.png)
 
 ## So how do you interact with this cluster?
 
@@ -55,10 +55,10 @@ How to:
     - Application data is NOT stored in the etcd
     - Its a cluster state information for the master process to communicate with worker processs and vice versa.
 - In practice there are multiple master nodes and api server is load balanced and etcd are distributed storage across all the master nodes
-- ![alt text](../images/image-5.png)
+- ![alt text](images/k8s-etcd-architecture.png)
 
 - example Cluster setup
   - 3 master nodes
   - 5 worker nodes
   - master needs less resources and worker needs more resources
-  - ![alt text](../images/image-6.png)
+  - ![alt text](images/k8s-cluster-setup.png)

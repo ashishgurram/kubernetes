@@ -18,8 +18,8 @@
 ## Introduction
 This document provides a quick reference for common `kubectl` commands and minikube usage, including installation, cluster management, and debugging tips for Kubernetes.
 
-![alt text](../images/image-12.png)
-![alt text](../images/image-13.png)
+![alt text](images/kubectl-installation.png)
+![alt text](images/kubectl-minikube-status.png)
 
 
 ### install hyperhit and minikube
@@ -107,4 +107,4 @@ This document provides a quick reference for common `kubectl` commands and minik
 
 
 
-![alt text](../images/image-11.png)
+![alt text](images/kubectl-metrics.png)

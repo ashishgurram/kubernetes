@@ -8,8 +8,10 @@ This index lists all documentation files in recommended reading order (oldest to
 4. [minikube-and-kubectl.md](./minikube-and-kubectl.md)
 5. [main-kubectl-commands.md](./main-kubectl-commands.md)
 6. [yaml-configuration-file-in-k8s.md](./yaml-configuration-file-in-k8s.md)
+7. [kubernetes-namespaces-explained](./kubernetes-namespaces-explained.md)
+8. [k8s-ingress-explained](./k8s-ingress-explained.md)
 
 ---
 
 - Each file covers a different aspect of Kubernetes, from basic concepts to hands-on commands and configuration.
-- Images referenced in the docs are now in the `../images/` folder.
+- Images referenced in the docs are now in the `docs/images/` folder.
