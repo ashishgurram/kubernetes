@@ -1,6 +1,15 @@
 
+# Minikube and kubectl
+
+## Table of Contents
+1. [Minikube](#minikube)
+2. [kubectl](#kubectl)
+
+## Introduction
+This document covers the basics of Minikube for local Kubernetes clusters and the kubectl tool for cluster management.
+
 # minikube
-![alt text](image-7.png)
+![alt text](../images/image-7.png)
 - docker would be pre installed
 - it runs using a virtual box
 - it creates a virtual box and the node runs in that
@@ -8,7 +17,7 @@
 
 # kubectl
 - to interact with the node that we have in minikube we need a way to communicate with , we use kubectl for that.
-- ![alt text](image-9.png)
+- ![alt text](../images/image-9.png)
 - kubectl si ont just for minikube we use for even cloud as well
 
 

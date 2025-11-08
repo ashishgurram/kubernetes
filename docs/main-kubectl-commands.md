@@ -1,6 +1,25 @@
 
-![alt text](image-12.png)
-![alt text](image-13.png)
+
+# Main kubectl Commands
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Install hyperkit and minikube](#install-hyperkit-and-minikube)
+3. [Create minikube cluster](#create-minikube-cluster)
+4. [Delete cluster and restart in debug mode](#delete-cluster-and-restart-in-debug-mode)
+5. [kubectl commands](#kubectl-commands)
+6. [Debugging](#debugging)
+7. [Create mongo deployment](#create-mongo-deployment)
+8. [Delete deployment](#delete-deployment)
+9. [Create or edit config file](#create-or-edit-config-file)
+10. [Delete with config](#delete-with-config)
+11. [Metrics](#metrics)
+
+## Introduction
+This document provides a quick reference for common `kubectl` commands and minikube usage, including installation, cluster management, and debugging tips for Kubernetes.
+
+![alt text](../images/image-12.png)
+![alt text](../images/image-13.png)
 
 
 ### install hyperhit and minikube
@@ -34,6 +53,7 @@
 `kubectl get nodes` for the status
 
 `kubectl get pod` for checking the pods
+`kubectl get pod -o wide` for more details
 
 `kubectl get services` for checking the services
 
@@ -87,4 +107,4 @@
 
 
 
-![alt text](image-11.png)
+![alt text](../images/image-11.png)

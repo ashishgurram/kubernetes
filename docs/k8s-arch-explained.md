@@ -1,4 +1,14 @@
-# K8s Arch
+
+# Kubernetes Architecture Explained
+
+## Table of Contents
+1. [Worker Machine (Node)](#worker-machinenode-in-k8s-cluster)
+2. [Interacting with the Cluster](#so-how-do-you-interact-with-this-cluster)
+3. [Master Processes](#master-processes)
+4. [Example Cluster Setup](#example-cluster-setup)
+
+## Introduction
+This document explains the architecture of a Kubernetes cluster, including the roles of nodes, master processes, and how they interact.
 
 ## WOrker Machine(Node) in k8s cluster
 - Each node has multiple pods on it
@@ -11,7 +21,7 @@
     - it wants to optimise the n/w call
 - worker node does hte actual work
 
-![alt text](image-4.png)
+![alt text](../images/image-4.png)
 
 ## So how do you interact with this cluster?
 
@@ -45,10 +55,10 @@ How to:
     - Application data is NOT stored in the etcd
     - Its a cluster state information for the master process to communicate with worker processs and vice versa.
 - In practice there are multiple master nodes and api server is load balanced and etcd are distributed storage across all the master nodes
-- ![alt text](image-5.png)
+- ![alt text](../images/image-5.png)
 
 - example Cluster setup
   - 3 master nodes
   - 5 worker nodes
   - master needs less resources and worker needs more resources
-  - ![alt text](image-6.png)
+  - ![alt text](../images/image-6.png)
