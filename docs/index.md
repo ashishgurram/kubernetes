@@ -10,6 +10,7 @@ This index lists all documentation files in recommended reading order (oldest to
 6. [yaml-configuration-file-in-k8s.md](./yaml-configuration-file-in-k8s.md)
 7. [kubernetes-namespaces-explained](./kubernetes-namespaces-explained.md)
 8. [k8s-ingress-explained](./k8s-ingress-explained.md)
+9. [helm-explained](./helm-explained.md)
 
 ---
 
