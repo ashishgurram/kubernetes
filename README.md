@@ -8,7 +8,7 @@ This repository contains organized resources, manifests, and documentation to he
 - `example-manifests/` — Example Kubernetes YAML manifests for deployments and services.
 - `demo-kubernetes-components/` — Additional demo manifests and resources, e.g., for MongoDB and other components (for experimentation and reference).
 - `docs/` — Markdown documentation covering Kubernetes concepts, architecture, commands, and configuration. Start with `docs/index.md` for a recommended reading order.
-- `images/` — All images referenced in the documentation.
+- `docs/images/` — All images referenced in the documentation.
 
 ## Getting Started
 
